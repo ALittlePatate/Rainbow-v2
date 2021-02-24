@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```
 
 # Usage
-## If you are too lazy to use [python](https://www.python.org/downloads/release/python-360/), download the [compiled version](https://github.com/ALittlePatate/Rainbow-Cheat-CS-GO/releases/) of the cheat. Please note that you won't have the crosshair hack.
+## If you are too lazy to use [python](https://www.python.org/downloads/release/python-360/), download the compiled version of the cheat (soon). Please note that you won't have the crosshair hack.
 ```
 python Rainbow.py
 ```

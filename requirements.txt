@@ -16,8 +16,5 @@ pywin32
 win32gui
 kivy
 importlib
-time
 configparser
-re
-json
 datetime

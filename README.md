@@ -61,21 +61,24 @@ If you have ideas of improvements or if you want to report a bug please make a m
 # Changelog
 
 # Recode v1
+* Improved compatibility and stability
 * New ui powered by kivy (GPU based)
+* The ui color is customizable
 * New config reading/writing system
+* Added a "Save config" button so you don't have to create a new one
 * No more global variables !
+* The code is better written (thanks [@teoformartel](https://github.com/teoformartel) for saying to me to use classes !)
 * Now for >Python 3.5
+* Now a part of the netvars is gathered by the cheat itself
 * All the changes of the parameters are updated in real time !
 * The glow looks way better (kinda like internal)
 * Added customization to the colors of the chams and of the glow
 * Added a fake lag
+* Now the rank reveal is in a proper window
 * You can now choose the kill sound and add you sounds to it !
-* Improved compatibility and stability
 * Now the radar and no flash reset works !
-* The ui color is customizable
-* Added a "Save config" button so you don't have to create a new one
-* Now a part of the netvars is gathered by the cheat itself
-* The code is better written (thanks [@teoformartel](https://github.com/teoformartel) for saying to me to use classes !)
+
+
 
 ## V4.04
 * The Rank Reveal has now a proper window

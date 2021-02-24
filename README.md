@@ -75,7 +75,7 @@ If you have ideas of improvements or if you want to report a bug please make a m
 * The ui color is customizable
 * Added a "Save config" button so you don't have to create a new one
 * Now a part of the netvars is gathered by the cheat itself
-* The code is better written (thanks @teoformartel for saying to me to use classes !)
+* The code is better written (thanks [@teoformartel](https://github.com/teoformartel) for saying to me to use classes !)
 
 ## V4.04
 * The Rank Reveal has now a proper window

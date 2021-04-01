@@ -29,6 +29,7 @@ from last import last
 from get_active_weapons import get
 from skin_id_dumper import main as dump_skins
 
+import keyboard
 import datetime
 
 from multiprocessing import *
@@ -243,7 +244,7 @@ FloatLayout:
         if value == "Active skins" :
             return
         elif value == "update" :
-            pass
+            keyboard.send("f6")
         elif value == "delete" :
             entry_to_del = draw.skinchanger_active_weapons_selected
             self.active_weapons.remove(entry_to_del)

@@ -59,6 +59,9 @@ If you have ideas of improvements or if you want to report a bug please make a m
 * The rank reveal isn't very accurate (sometimes it's one rank bellow or above the real one)
 
 # Changelog
+# Recode v2
+* Improved stability
+* Added a fully customizable skinchanger ! (Big thanks to [naaax123](3https://github.com/naaax123) for letting me use his code for the base !)
 
 # Recode v1
 * Improved compatibility and stability

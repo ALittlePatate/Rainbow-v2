@@ -68,7 +68,6 @@ class skinchanger_func() :
 
             self.config_p.read('configs/'+self.config_last)
             active_weapons = config.active_weapons(self)
-            print(active_weapons)
             for weapon, skin in active_weapons.items() :
                 fallbackpaint = int(skin_dict[skin])
                 seed = int(self.config_p.get('SKINCHANGER', weapon+"_se"))

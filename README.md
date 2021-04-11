@@ -46,6 +46,8 @@ python Rainbow.py
 * Auto bhop legit and rage
 * No flash
 * Fake lag
+* Skinchanger [BETA]
+* Knifechanger [BETA]
 
 # Contact
 If you have ideas of improvements or if you want to report a bug please make a message on [Issues](https://github.com/ALittlePatate/Rainbow-v2/issues) or message me on [Discord](https://discord.com/) at ALittlePatate#1252.
@@ -57,8 +59,17 @@ If you have ideas of improvements or if you want to report a bug please make a m
 * Some fps issues (maybe due to Kivy ?)
 * The crosshair hack can make your game minimize the first time you use it
 * The rank reveal isn't very accurate (sometimes it's one rank bellow or above the real one)
+* The knife model won't change twice in the same game unless you retry
+* The knives and weapon skins will not always be applied (timing and optimization issue)
 
 # Changelog
+# Recode V2.1
+* Improved stability
+* Added a knifechanger
+* The skinchanger/knifechanger are more optimized
+* The rank reveal won't crash anymore (but still not really working)
+* The Offsets are changed so they work with the knifechanger
+
 # Recode v2
 * Improved stability
 * Added a fully customizable skinchanger ! (Big thanks to [naaax123](3https://github.com/naaax123) for letting me use his code for the base !)

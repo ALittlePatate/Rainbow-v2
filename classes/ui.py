@@ -1061,8 +1061,8 @@ FloatLayout:
         self.settings = Button(size_hint =(.2, .2), pos_hint ={'center_x':.100, 'center_y':.099}, text ="Settings", background_color=ui_color_rgba)
         self.settings.bind(on_press=partial(self.disable, self.settings))
         
-        self.cheat_name_label = Label(size_hint =(.2, .2), pos_hint={"top":0.98, "right": 0.6}, text="Rainbow Recode v2 | Elapsed: ", font_size = 25)
-        self.elapsed_label = Label(size_hint =(.2, .2), pos_hint={"top":0.98, "right": 0.9}, text=str(datetime.datetime.now().strftime('%H:%M:%S')), font_size = 25)
+        self.cheat_name_label = Label(size_hint =(.2, .2), pos_hint={"top":0.98, "right": 0.6}, text="Rainbow Recode v2.1 | Elapsed: ", font_size = 25)
+        self.elapsed_label = Label(size_hint =(.2, .2), pos_hint={"top":0.98, "right": 0.92}, text=str(datetime.datetime.now().strftime('%H:%M:%S')), font_size = 25)
         self.status_label = Label(size_hint =(.2, .2), pos_hint={"top":0.7, "right": 0.44}, text="Status : ", font_size = 23)
         self.undetected_label = Label(size_hint =(.2, .2), pos_hint={"top":0.7, "right": 0.6}, text="Undetected", font_size = 23, color="green")
 

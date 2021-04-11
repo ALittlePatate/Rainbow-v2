@@ -89,11 +89,11 @@ class check :
                 
                 engine_state = pm.read_int( engine + dwClientState )
    
-                if pm.read_int(engine_state + dwClientState_State) != 6 and t_knifechanger.is_alive() : #and t_skinchanger.is_alive():
+                if pm.read_int(engine_state + dwClientState_State) != 6 and t_knifechanger.is_alive() and t_skinchanger.is_alive():
                     t_skinchanger.terminate()
                     t_knifechanger.terminate()
 
-                elif pm.read_int(engine_state + dwClientState_State) == 6 and not t_knifechanger.is_alive() : #and not t_skinchanger.is_alive() :
+                elif pm.read_int(engine_state + dwClientState_State) == 6 and not t_knifechanger.is_alive() and not t_skinchanger.is_alive() :
                     multiprocessing.freeze_support()
                     t_skinchanger = Process(target = skinchanger_func)
                     t_skinchanger.start()

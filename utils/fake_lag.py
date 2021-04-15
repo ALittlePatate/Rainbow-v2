@@ -25,7 +25,7 @@ class fake_lag() :
             try :
                 read("misc")
 
-                pm.write_float(engine + 0x38E6AC4, features_check.check.fake_lag_value/2)
+                pm.write_float(engine + 0x38E0ACC, features_check.check.fake_lag_value/2)
             except :
                 pass
         

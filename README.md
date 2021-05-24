@@ -11,8 +11,8 @@ If you want to contribute, be free to send me a message on discord (see contact)
 
 # Read this (important)
 I can't update the cheat every weeks/days, so if someone who's interested in want to work with me, i'll be glad to accept :)
-I played with this cheat ~300 hour online on VAC servers.
-The cheat is undetectable by VAC (updated the 04/03/2021)
+I played with this cheat ~400 hour online on VAC servers.
+The cheat is undetectable by VAC (updated the 24/05/2021)
 
 # Installation
 ### Make sure to have at least [Python 3.6](https://www.python.org/downloads/release/python-360/) and pip added to your PATH and be in the same directory as the cheat
@@ -50,7 +50,7 @@ python Rainbow.py
 * Knifechanger [BETA]
 
 # Contact
-If you have ideas of improvements or if you want to report a bug please make a message on [Issues](https://github.com/ALittlePatate/Rainbow-v2/issues) or message me on [Discord](https://discord.com/) at ALittlePatate#1252.
+If you have ideas of improvements or if you want to report a bug please make a message on [Issues](https://github.com/ALittlePatate/Rainbow-v2/issues) or message me on [Discord](https://discord.com/) at Dogecoin#1252.
 
 # Known issues
 * The silent aim isn't very acurate sometimes

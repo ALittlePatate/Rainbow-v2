@@ -12,7 +12,7 @@ If you want to contribute, be free to send me a message on discord (see contact)
 # Read this (important)
 I can't update the cheat every weeks/days, so if someone who's interested in want to work with me, i'll be glad to accept :)
 I played with this cheat ~400 hour online on VAC servers.
-The cheat is undetectable by VAC (updated the 24/05/2021)
+The cheat is undetectable by VAC (updated the 01/06/2021)
 
 # Installation
 ### Make sure to have at least [Python 3.6](https://www.python.org/downloads/release/python-360/) and pip added to your PATH and be in the same directory as the cheat

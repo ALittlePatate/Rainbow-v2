@@ -50,7 +50,7 @@ python Rainbow.py
 * Knifechanger [BETA]
 
 # Contact
-If you have ideas of improvements or if you want to report a bug please make a message on [Issues](https://github.com/ALittlePatate/Rainbow-v2/issues) or message me on [Discord](https://discord.com/) at Dogecoin#1252.
+If you have ideas of improvements or if you want to report a bug please make a message on [Issues](https://github.com/ALittlePatate/Rainbow-v2/issues) or message me on [Discord](https://discord.com/) at patate#1252.
 
 # Known issues
 * The silent aim isn't very acurate sometimes

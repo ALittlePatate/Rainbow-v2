@@ -68,20 +68,20 @@ class glow() :
                         if features_check.check.glow_allies :
 
                             if entity_team_id == player_team:  # Terrorist
-                                pm.write_float(glow_manager + entity_glow * 0x38 + 0x4, float(allies_color[0]))   # R 
-                                pm.write_float(glow_manager + entity_glow * 0x38 + 0x8, float(allies_color[1]))   # G
-                                pm.write_float(glow_manager + entity_glow * 0x38 + 0xC, float(allies_color[2]))   # B
-                                pm.write_float(glow_manager + entity_glow * 0x38 + 0x10, float(allies_color[3]))  # Alpha
-                                pm.write_int(glow_manager + entity_glow * 0x38 + 0x24, 1)           # Enable glow
+                                pm.write_float(glow_manager + entity_glow * 0x38 + 0x8, float(allies_color[0]))   # R 
+                                pm.write_float(glow_manager + entity_glow * 0x38 + 0xC, float(allies_color[1]))   # G
+                                pm.write_float(glow_manager + entity_glow * 0x38 + 0x10, float(allies_color[2]))   # B
+                                pm.write_float(glow_manager + entity_glow * 0x38 + 0x14, float(allies_color[3]))  # Alpha
+                                pm.write_int(glow_manager + entity_glow * 0x38 + 0x28, 1)           # Enable glow
 
                         if features_check.check.glow_ennemies :
 
                             if entity_team_id != player_team:  # Counter-terrorist
-                                pm.write_float(glow_manager + entity_glow * 0x38 + 0x4, float(ennemies_color[0]))   # R
-                                pm.write_float(glow_manager + entity_glow * 0x38 + 0x8, float(ennemies_color[1]))   # G
-                                pm.write_float(glow_manager + entity_glow * 0x38 + 0xC, float(ennemies_color[2]))   # B
-                                pm.write_float(glow_manager + entity_glow * 0x38 + 0x10, float(ennemies_color[3]))  # Alpha
-                                pm.write_int(glow_manager + entity_glow * 0x38 + 0x24, 1)           # Enable glow
+                                pm.write_float(glow_manager + entity_glow * 0x38 + 0x8, float(ennemies_color[0]))   # R
+                                pm.write_float(glow_manager + entity_glow * 0x38 + 0xC, float(ennemies_color[1]))   # G
+                                pm.write_float(glow_manager + entity_glow * 0x38 + 0x10, float(ennemies_color[2]))   # B
+                                pm.write_float(glow_manager + entity_glow * 0x38 + 0x14, float(ennemies_color[3]))  # Alpha
+                                pm.write_int(glow_manager + entity_glow * 0x38 + 0x28, 1)           # Enable glow
                         
                         time.sleep(0.002)
                 

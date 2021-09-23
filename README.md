@@ -1,5 +1,9 @@
-# New CS:GO update !
-So csgo has been updated and some users reported that the cheat was broken. Don't worry i'll work on it asap !
+# This project is discontinued.
+So, the new csgo update came out. It broke litteraly everything. I don't have the motivation to fix all of the issues, sorry guys.
+I've been working on this project for over a year now and i learnt a lot. Thanks for the support that you gave me throughout my adventure.
+I keep the repo open and public so you can make a pull request if you want to fix the cheat by yourself. Also you can fork it to fix it.
+See you at my next project !
+
 # Recode
 The recode ui is powered by [Kivy](https://kivy.org/doc/stable/api-kivy.modules.html) so it's much much cleaner.
 It includes ui, chams and glow colors customization with a much better way to write and read configs (thanks [Configparser](https://docs.python.org/3/library/configparser.html) !).

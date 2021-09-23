@@ -1,3 +1,5 @@
+# New CS:GO update !
+So csgo has been updated and some users reported that the cheat was broken. Don't worry i'll work on it asap !
 # Recode
 The recode ui is powered by [Kivy](https://kivy.org/doc/stable/api-kivy.modules.html) so it's much much cleaner.
 It includes ui, chams and glow colors customization with a much better way to write and read configs (thanks [Configparser](https://docs.python.org/3/library/configparser.html) !).
